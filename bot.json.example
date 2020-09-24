@@ -1,0 +1,21 @@
+  {
+    "settings": {
+        "token": "myToken",
+    },
+    "commands": [{
+        "command": "!hello",
+        "action": "send_message",
+        "message": "Hello!"
+    },
+    {
+        "command": "!hi",
+        "action": "send_dm",
+        "message": "Hello there."
+    }   
+],
+    "presence": {
+        "enabled": true,
+        "type": "playing",
+        "text": "Hola!"
+    }
+}
